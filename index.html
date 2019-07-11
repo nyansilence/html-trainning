@@ -10,14 +10,23 @@
 .row_1 {padding-top: 200px;}
 .row_2 {padding-top: 200px;}
 .row_3 {padding-top: 200px;}
-.row_1 .row1 {background-color: white;border-radius: 25px;}
-.row_2 .row2 {background-color: white;border-radius: 25px;}
-.row_3 .row3 {background-color: white;border-radius: 25px;}
-.khong p{ color:white;font-size: 30px; background-color: black;}
-.mot{ color:lightskyblue; font-size:30px;}
-.hai {color: deeppink;font-size:30px;}
-.ba {color: green;font-size:30px;}
+.row1 {background-color: white;border-radius: 25px;}
+.row2 {background-color: white;border-radius: 25px;}
+.row3 {background-color: white;border-radius: 25px;}
+.khong p{ color:white;font-size: 20px; background-color: black;}
+.mot{ color:lightskyblue; font-size:20px;}
+.hai {color: deeppink;font-size:20px;}
+.ba {color: green;font-size:20px;}
+.m {
+    margin-top: 100px;
+}
+@media only screen and (min-width: 800px){
+    .m {
+        margin-top: 0px;
+    }
+}
 </style>
+<script type="text/javascript" url="css/css.css"></script>
 </head>
 <body>
     
@@ -25,21 +34,21 @@
         <div class="container banner-container">
             <div class="row row_0">
                 <div class="col">
-                   <img src="img/common/head-title.png">
+                   <img src="img/common/head-title.png" style=" max-width: 100%;">
                 </div>
             </div>
             <div class="row row_1">
-                <div class="col-4">
+                <div class="col-md-4 col-lg-5">
                     <div class="khong"><p>Lorem ipsum dolor dolor</p><br/>
                                     <p>Delectus libero dolor</p> <br/> 
                                     <p>reiciendis ratione ratione </p>  
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-md-8 col-lg-7 m">
                     <div class="row row1">
                         <div class="col-7">
-                            <img src="img/top/catego-event.png" style="margin-top: -150px;">
-                            <div class="mot" style="margin-left: -50px;">Lorem ipsum dolor sit amet  <br/>
+                            <img src="img/top/catego-event.png" style="margin-top: -100px; max-width: 20%;">
+                            <div class="mot" style="margin-top: 40px;margin-bottom: 20px;">Lorem ipsum dolor sit amet  <br/>
                                                                         Delectus libero reiciendis   <br/> 
                                                                         reiciendis ratione numquam <br/>
                                                                         reiciendis reiciendis
@@ -53,41 +62,41 @@
                 </div>
             </div>
             <div class="row row_2">
-                <div class="col-8">
+                <div class="col-md-8 col-lg-7">
                     <div class="row row2">
-                        <div class="col-5">
+                        <div class="col-5 ">
                             <img src="img/top/anime-miyage.gif" style="max-width: 100%;margin-top: -100px;">
-                            <img src="img/top/navicon-miyage.png" style="max-width: 100%;margin-bottom: -450px;">
+                            <img src="img/top/navicon-miyage.png" style="max-width: 100%;margin-bottom: -250px;">
                         </div>
-                        <div class="col-7">
-                                <img src="img/top/catego-miyage.png" style="margin-left: auto;display: block;margin-top: -150px;">
-                                <div class="hai"style="margin-right: -100px;">Lorem ipsum dolor ipsum ipsum ip<br/>
-                                                                            Delectus libero ipsum ipsum<br/> 
-                                                                            reiciendis ratione ipsum ipsum ipsum    <br/>
-                                                                            reiciendis ipsum ipsum
+                        <div class="col-7 ">
+                                <img src="img/top/catego-miyage.png" style="max-width: 20%; margin-left: auto;display: block;margin-top: -150px;">
+                                <div class="hai"style="margin-bottom:30px;">Lorem ipsum dolor ipsum  <br/>
+                                                                            Delectus libero ip  <br/> 
+                                                                            reiciendis ratione ipsum  <br/>
+                                                                            reiciendis ipsum 
                                 </div> 
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4 col-lg-5">
                 </div>
             </div>
             <div class="row row_3">
-                <div class="col-4">
+                <div class="col-md-4 col-lg-5">
                 </div>
-                <div class="col-8">
+                <div class="col-md-8 col-lg-7">
                     <div class="row row3">
                         <div class="col-7">
-                            <img src="img/top/catego-news.png" style="margin-top: -150px;">
-                            <div class="ba" style="margin-left: -50px;">Lorem ipsum dolor dolor ratione  <br/>
-                                        Delectus libero dolor styl ratione <br/> 
-                                        reiciendis ratione dolor ratione <br/>
-                                        reiciendis dolor
+                            <img src="img/top/catego-news.png" style="margin-top: -130px;max-width: 20%;">
+                            <div class="ba" style=" margin-top: 100px;">Lorem ipsum dolor dolor  <br/>
+                                                                        Delectus libero dolor   <br/> 
+                                                                        reiciendis ratione dolor    <br/>
+                                                                        reiciendis dolor 
                             </div>
                         </div>
                         <div class="col-5">
                             <img src="img/top/anime-news.gif" style="max-width: 100%;margin-top: -100px;">
-                            <img src="img/top/navicon-news.png" style="max-width: 100%;margin-bottom: -50px;">
+                            <img src="img/top/navicon-news.png" style="max-width: 100%;margin-bottom: -50px;margin-top: 20px;">
                         </div>
                     </div>
                 </div>
