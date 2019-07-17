@@ -1,0 +1,46 @@
+img{
+    max-width: 100%;
+}
+.logo{
+    background-color: white;
+    max-width: 100%;
+}
+.main{
+    background-color: white;
+    max-width: 334px;
+    margin-top: 50px;
+}
+.xb1{
+    color: white;
+}
+.t{
+    background-color:lightskyblue;
+    max-width: 100%;
+    margin-top: 20px;
+}
+.te{
+    background-color: black;
+    max-width: 100%;
+    margin-top: 20px;
+}
+.tex{
+    color: lightskyblue;
+    margin-top:15px;
+    margin-bottom:15px;
+    max-width: 288px;
+    font-size: 15px;
+    text-align: center;
+}
+.text1{
+    color:hotpink;
+    font-size: 10px;
+}
+.text2{
+    color:green;
+    font-size: 10px;
+    max-width: 200px;
+}
+.box{
+    max-width: 100%;
+    padding-left: 15px;
+}
