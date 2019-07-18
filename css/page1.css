@@ -4,24 +4,38 @@ img{
 .logo{
     background-color: white;
     max-width: 100%;
+    margin:auto;
+    margin-bottom: 50px;
 }
+
+
 .main{
     background-color: white;
     max-width: 334px;
-    margin-top: 50px;
-}
-.xb1{
-    color: white;
+    display: block;
+    margin:auto;
 }
 .t{
     background-color:lightskyblue;
-    max-width: 100%;
     margin-top: 20px;
+    max-width: 200px;
+    transform: translateX(-12%);
+
 }
 .te{
     background-color: black;
-    max-width: 100%;
     margin-top: 20px;
+    max-width: 112px;
+    margin-left: auto;
+    transform: translateX(14%);
+}
+
+.t,.te {
+    color: white;
+    text-align: center;
+}
+.fo{
+    background-color: black;color:white;padding-left: 10px;max-width: 100%;
 }
 .tex{
     color: lightskyblue;
@@ -29,7 +43,7 @@ img{
     margin-bottom:15px;
     max-width: 288px;
     font-size: 15px;
-    text-align: center;
+    padding-left: 10px;
 }
 .text1{
     color:hotpink;
@@ -40,7 +54,58 @@ img{
     font-size: 10px;
     max-width: 200px;
 }
-.box{
+.div1{
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+.div2{
+    border-bottom: 1px solid;
+}
+.box1,.box2{
+    padding-left:10px;
+}
+.box1,.box2{
+    padding-top: 15px;
+}
+.bbox{
     max-width: 100%;
-    padding-left: 15px;
+}
+.icon{
+    max-width:80px;margin-left:auto;margin-top:-45px;display: block;
+}
+@media only screen and (min-width: 900px){
+    .logo {
+        max-width: 0px;
+    }
+    .t,
+    .te{
+        transform: translate(0);
+        margin-top:25px;
+    }
+    .icon{
+        margin-top:-25px;
+    }
+    .main{
+        max-width: 800px;
+    }
+
+    .bbox{
+        max-width: 526px;
+        margin:auto;
+    }
+    .fo{
+        max-width: 800px;
+    }
+    .div1{
+        border-right:1px solid;
+        border-top: 0px;
+    }
+    .box{
+        margin-right:0px;
+        margin-left:0px;
+    }
+    .bb{
+        padding-left:0;
+        padding-right:0;
+    }
 }
